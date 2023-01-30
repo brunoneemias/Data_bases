@@ -1,0 +1,34 @@
+MySQL #01 
+
+- O que é um Banco de Dados? 
+
+Origem do Banco de Dados
+
+Antes dos computadores, os dados eram guardados em papel e guardados dentro de  arquivos metálicos. 
+
+Hoje são guardados em banco de dados.
+Registros - Papel(Fichas) 
+Tabelas - Pastas
+Arquivos - Armários
+
+Na transição da década de 50-60 os arquivos começou a ser guardados em computadores, nesse periódo os arquivos eram guardados sequencialmente em fitas magnéticas. O nome desse tipo de arquivo era Arquivos sequencial.
+
+logo após as fitas, vieram os disquetes que poderiam armazenar os dados diretamente, colocando índices nos arquivos o que facilitou nas buscas pelos arquivos armazenados,
+foi dado o nome de arquivo direto.
+
+Na década de 60 o departamento de defesa dos estados unidos tinha uma tarefa de criar uma maneira de armazenar dados de uma maneira mais segura e inteligênte. Foi no CODASYL  que surgiu o COBOL uma linguagem de programação muito importante para banco de dados.  foi com essa linguagem de programção que surgiu o banco de dados. 
+
+O banco de dados é composto por quatro partes: Base de dados, Sitema Gerenciador de Banco de Dados; Linguagem de Exploração; Programas Adicionais. 
+IBM: foi uma empresa muito importante, ela propos dados hierarquicos interligados que ficou conhecido como Modelo Hierárquico. 
+
+Na década de 70, a IBM mudou o modo de organizar os dados de Modelo Hierárquico, passou a ser um Modelo Relacional.  
+
+
+
+SEQUEL, foi o primeiro nome usado para a linguagem de programação de banco de dados. Hoje ela se chama SQL. 
+
+Grandes empresas de bancos de dados: Oracle, DB2 da IBM, SQLServer da microsoft.
+
+ 
+Banco de Dados gratuitos: MySQL, MariaDB, FireBird.
+

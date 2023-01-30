@@ -1,0 +1,14 @@
+MySQL #08 -  Gerenciando Cópias de Segurança MySQL 
+
+Para fazer uma exportação no MySQL: 
+
+Server --> DataExport --> Seleciona seus bancos --> Marque o dump que deseja --> vá em export --> coloque o nome e a senha do servidor. 
+
+O backup de um banco de dados chama-se Dump
+
+drop database cadastro;  apaga um banco de dados
+
+Importar 
+
+Server --> DataImport 
+

@@ -1,0 +1,105 @@
+﻿Aula #03 - Primeiro Banco de Dados.
+
+A função do Banco de Dados é separar Instâncias(Qualquer coisa com caracteristicas semelhantes). 
+
+Banco de Dados --> Tabelas --> Registros --> Campos
+
+Passo a passo: 
+1- Abrir o WAMP e esperar ficar verde 
+2- Abir o MySQL workbench 
+3- Clicar no Servidor WAMP 
+4- Começar a criar
+
+Para criar um banco de dados no MySQL basta digitar:
+ CREATE DATABASE "nome do banco de dados"; 
+
+Para testar o código digitado clique no raio com um 'i". ou  CTRL + ENTER
+clique no icone atualizar ao lado de SCHEMAS, para saber se o banco de dados foi criado. 
+
+Após criado o banco de dados, iremos criar tabelas, para isso basta digitar. 
+CREATE TABLE "nome da tabela" (  campos . . .           
+);
+ Dentro do CREATE TABLE você digita os campos: 
+Ex: nome, idade, sexo, peso, altura, nacionalidade, SEMPRE separar por vírgulas, exceto o último. 
+
+Após criado a tabela e os campos, iremos atribuir o tipo primitivo de cada Campos digitado. 
+
+Tipos  Primitivos do MySQL: 
+Numérico: Inteiro, Real, Lógico
+Data/Tempo
+Literais: Caractere, Texto, binário e coleção
+Espacial:
+
+Inteiro: TinyInt, Smallint, int, MediumInt, BigInt. 
+A diferença entre esses inteiros é a quantidade de bytes que ele vai utilizar. 
+Real: Decimal, Float, Double, Real
+Lógico: Bit, Boolean. 
+
+Data/Tempo: Date, DateTime, TimeStamp, Time, Year. 
+
+Caractere: Char, VarChar
+Texto: TinyText, Text, MediumText, LongText. 
+A diferença entre caractere e texto é que o texto é para textos longos, por exemplo uma descrição completa de alguém. O Caractere é para textos curtos. nome, endereço e etc. 
+
+Binário: TinyBlob, Blob, MediumBlob, LongBlob.
+O tipo blog, permite guardar qualquer coisa em binário, por exemplo uma imagem. apesar de não ser recomendado guardar uma imagem no banco de dados. 
+Coleção: Enum, Set
+Enum e Set é aonde você cadastra quais são os valores permitidos, e na hora de digitar ele só aceita esses valores.
+
+Espacial: Germetry, Point, Polygon, Multipolygon
+Permite guardar informações sobre volumétricos. 
+
+Para usar o banco de dados digite: 
+Use "Nome do banco de dados";
+
+describe "nome do banco de dados"; 
+Vai descrever o seu banco de dados
+
+No terminal: 
+Para acessar o terminal vai no XAMP. 
+MySQL 
+MySQL Console. 
+
+O nome é root e no campo da senha aperte enter. 
+
+No terminal, Digite:
+ Show databases;
+Ira mostrar todas as databases criadas. 
+
+Use "Nome da data base"; 
+vai selecionar a data base.
+
+Status; 
+Mostrará informações sobre a databases selecionada. 
+
+show tables; 
+vai mostrar as tabelas da database
+
+describe nomedatabela; 
+irá descrever a tabela. 
+
+No MySQL Workbench.
+
+Para saber mais informações da database criada, basta clicar no icone i  ao lado do nome da database. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

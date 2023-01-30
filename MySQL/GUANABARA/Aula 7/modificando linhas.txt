@@ -1,0 +1,33 @@
+MySQL #07 – Manipulando Linhas (UPDATE, DELETE e TRUNCATE)
+
+para poder modificar uma linha utilizamos o UPDATE e o SET.  
+
+UPDATE nomedobanco 
+SET nome atual da coluna  = nome a receber
+
+também é possivel identificar a linha pelo id. 
+para isso você digita depois do comando SET: 
+WHERE idcurso = 'id da linha'; 
+
+ para alterar mais de uma informação de uma vez faça o seguinte: 
+UPDATE nomedobanco
+SET nomedacoluna  = 'nomedesejado', nomedeoutracoluna = 'nomedesejado' 
+WHERE id = 'numero de identificação', 
+LIMIT 1; --> Faz com que apenas uma linha seja afetada, isso ajuda caso você tenha feito merda. 
+
+Para desabilitar a segurança de atualização do MySQL vá em edit - preferences - sql editor  - e desabilite o safe updates. 
+
+
+Comando para apagar linhas: 
+
+DELETE  FROM nomdobanco
+WHERE id = '8'; 
+
+
+Removendo todas as linhas de uma tabela: 
+TRUNCANTE TABLE nomedobanco; 
+
+
+UPDATE - DML 
+DELETE - DML 
+TRUNCATE  - DML 

@@ -1,0 +1,29 @@
+MySQL #04
+
+Para apagar um banco de dados. Digite: 
+Drop  database "nome do banco de dados"; 
+Para excutar clique no icone do Raio com o i ou aperte Ctrl+Enter 
+
+Constrains (Parâmetros): 
+default character set utf8
+NOT NULL : Obriga você a preencher o dado. 
+
+Collation(Serve para definição dos caracteres).
+default collate utf8_general_ci 
+
+Tipos Primitivos 2: 
+nome: varchar(30) NOT NULL, 
+nascimento: date,
+sexo enum('M' ,  'F'), 
+peso decimal(5,2), --> São 5 numeros e desses 5, 2 ficam após a vírgula. 
+altura decimal(3,2), 
+nacionalidade varchar(20) DEFAULT 'Brasil' -- Caso não digitar nada, por padrão será brasil. 
+
+Campo chave primária NÃO se repete, ou seja, você não consegue cadastrar o mesmo dado  2 ou mais vezes. 
+
+Para que não ocorra você pode fazer uma identificação, para isso siga os passos a seguir. 
+NO INICIO DO CÓDIGO: 
+id int NOT NULL AUTO_INCREMENTE; --> o auto incremente funciona incrementando 1 valor a mais em cada cadastro realizado automaticamente.
+
+NO FINAL DO CÓDIGO: 
+primary key ( id )

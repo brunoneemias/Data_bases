@@ -1,0 +1,50 @@
+MySQL #05 – Inserindo Dados na Tabela
+
+O comando create table é um comando DDL 
+DDL: Data Definition Language(Linguagem de Definição de Dados) é um comando de definição de dados. 
+
+Para o banco de dados, o que estiver entre aspas são dados. 
+
+Inserindo valores na tabela: 
+INSERT INTO nomedatabela
+Agora digite os campos dentro da tabela em parenteses separado por vírgula. 
+(id, nome, nascimento, sexo, peso, altura, nacionalidade)
+VALUES 
+Agora basta colocar entre parenteses cada valor na ordem certa, entre aspas e separado por vírgula.
+('1', 'Bruno', '1998-09-30', 'M', '78.5', '1.83', 'Brasil'); 
+
+
+select * from nomedatable;  - esse comando vai mostrar tudo que tem na tabela desejada. 
+
+Caso você saiba a ordem de cada registro você não precisa colocar o nome dos registros e pode atribuir os valores diretamente: 
+insert into nomedobanco 
+values
+('1', 'Bruno', '1998-09-30', 'M', '78.5', '1.83', 'Brasil'); 
+
+Para cadastrar várias pessoas de uma vez, basta realizar o primeiro cadastro e separar os próximos com a vírgula. 
+
+ex: insert into pessoas values
+(default, 'Bruno', '1998-09-30', 'M' ,'58.5', '1.77', 'Brasil'),
+(default, 'Ana', '1999-12-01', 'F', 70, 1,75, 'Brasil' );
+
+
+O insert into é da classe DML: 
+DML = Data Manipulation Language(manipulação de dados)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

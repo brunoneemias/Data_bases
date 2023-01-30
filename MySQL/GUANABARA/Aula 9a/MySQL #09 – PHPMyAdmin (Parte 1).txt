@@ -1,0 +1,22 @@
+MySQL #09 – PHPMyAdmin (Parte 1)
+
+No terminal: 
+
+Show databases; 
+Mostra todas as databases do servidor.
+
+Status; 
+Mostra o status da database utilizada
+
+use nomedobanco; 
+utilizada o banco de dados desejado
+
+describe tabeladesejada;
+irá mostrar os campos na tabela. 
+
+select * from tabela desejada; 
+irá mostrar os resgistros tabela. 
+
+phpmyadmin 
+
+WAMP --> PHPMYADMIM ---> user root --> senha sem senha. 

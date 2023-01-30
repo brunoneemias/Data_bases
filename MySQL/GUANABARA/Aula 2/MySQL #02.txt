@@ -1,0 +1,22 @@
+#02 MySQL comWAMP 
+
+1994 surgiu o MySQL na Suécia.
+GPL é uma certificação que deixa o programa livre com acesso ao código fonte. 
+
+Linguagens de banco de dados.
+DDL: Usada para definir a base do banco de dados 
+DML: Manipulação de dados 
+DQL: Solicitação
+DCL: Controle 
+DTL: Transações 
+ 	D: Durabilidade 
+ 	I: Isolamento
+	 C: Consistência
+	 A : Atômicidade 
+
+
+Downloads necessários:
+ https://dev.mysql.com/downloads/workbench/ - Sistema gerenciador do banco de dados. 
+https://sourceforge.net/projects/wampserver/?source=typ_redirect - simulador de um servidor. 
+
+

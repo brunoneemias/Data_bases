@@ -1,0 +1,59 @@
+MySQL #06 – Alterando a Estrutura da Tabela (ALTER TABLE e DROP TABLE)
+
+Alter Table altera as coisas na tabela. 
+
+Os campos da tabela são chamados de colunas(colunm)
+Vamos inserir uma nova coluna: 
+ALTER TABLE nomedobanco 
+add column nomedacoluna varchar(10); 
+
+para adicionar uma coluna depois de outra coluna: 
+ALTER TABLE nome_da_tabela; 
+ADD COLUMN profissao varchar(10) AFTER colunadesejada;
+ 
+Como não existe no MySQL o Before(Antes), quando quiser colocar a nova coluna no primeiro lugar faça isso: 
+
+ALTER TABLE nomedobanco
+add comlun brunolindo varchar(10) first; 
+
+Caso você adicionar um coluna nova e essa coluna precisar ser not null. vai ocorrer um erro, então é preciso que você coloque default ' ' 
+ex: alter table banco
+add column profissao varchar(20) not null default ' '; 
+
+para modificar uma coluna, use o modify 
+ex: ALTER TABLE pessoas
+modify column profissao varchar(50); 
+porém o modify nao muda o nome da coluna para isso utilize o change
+change column profissao prof varchar(20) not null default ' ' ; 
+change column profissao prof varchar(20) not null default ' ' ; 
+
+Renomear uma tabela: 
+
+alter table nomedatabela
+rename to nomedesejado; 
+
+drop table if exists: apagar se existir. 
+ex: alter table pessoas
+
+
+
+Exercício: Criar uma table chamada cursos com os campos nome, descricao, carga, totaula, ano 
+
+if not exists: você só cria alguma coisa se essa coisa nao existir 
+
+unique: constante que nao deixa que cadastre dois dados iguais no mesmo banco de dados. 
+
+unsigned(semsinal): isso economiza um byte para cada registro que tenha a carga resitrada 
+
+Para adicionar um código no programa basta escrever
+alter table 
+add códigodesejado; 
+
+alter table é DDL 
+
+Drop table é DDL 
+
+Manter banco de dados em backup como segurança
+
+
+

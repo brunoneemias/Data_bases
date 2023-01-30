@@ -1,0 +1,8 @@
+PHPmyadmim parte 2 
+
+Para criar um banco de dados novo o PHP my admim clique em new do lado direito da tela ou vá em bases de dados. 
+
+Dê o nome do banco de dados e coloque o tipo de coleção, no caso utf8_general_ci. 
+
+No terminal, você consegue ver como foi criado tabelas e banco de dados no php my admim, usando os comandos: Show create database nomedatablea; 
+
